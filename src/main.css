@@ -24,18 +24,18 @@ body {
   height: 100vh;
   color: #252222;
   font-family: 'RobotoCondensed';
-  font-size: 3vw;
+  font-size: 3rem;
   background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 
 label {
   text-transform: uppercase;
-  font-size: 2vw;
+  font-size: 2rem;
   font-weight: 700;
 }
 
 .wrapper-info {
-  margin: 5vh 0 6vh 0;
+  margin: 3vw 0;
 }
 
 .wrapper-image {
