@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'RobotoCondensed';
+  src: url('/css-variables-and-js/assets/font/RobotoCondensed.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --base: #10c26f;
+  --spacing: 0;
+  --blur: 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+  color: #252222;
+  font-family: 'RobotoCondensed';
+  font-size: 3rem;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+label {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.wrapper-info {
+  margin: 3vw 0;
+}
+
+.wrapper-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+  max-width: 40vmax;
+  justify-content: center;
+}
+
+.hl {
+  color: var(--base);
+}
+
+input {
+  width: 8vw;
+}
+
+#base {
+  width: 4vw;
+}
