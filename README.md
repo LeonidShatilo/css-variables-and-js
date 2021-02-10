@@ -2,7 +2,7 @@
 
 **[Task](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/stage-0/projects.md#task-5-css-variables-and-js-20)**
 
-**[Result](https://leonidshatilo.github.io/css-variables-and-js/)**
+**[DEMO](https://leonidshatilo.github.io/css-variables-and-js/)**
 
 ---
 
